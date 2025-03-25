@@ -1,36 +1,65 @@
-.kerek
-{
+
+body {
+    background-color: #f1fbff;
+    color: #40409b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.bal-oszlop {
+    background-color: #99cde2;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+}
+
+
+.kerek {
     border-radius: 30px;
 }
 
-.minuszmargo
-{
+.keretes {
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 100%;
+    border: 5px solid white;
+}
+
+
+.minuszmargo {
     margin-top: -60px;
 }
 
-.keretes
-{
-    border-radius: 15px;
-    margin-top: 30px;
-	width: 100%;
-}
-
-.icon
-{
+.icon {
     height: 150px;
     display: block;
     margin: 0 auto;
 }
 
-#narancs_ragyogas
-{
--webkit-filter: drop-shadow(0px 0px 15px orange);
-filter: drop-shadow(0px 0px 15px orange);
+
+.jobb-oszlop {
+    padding-top: 20px; 
 }
 
 
-.kozepre
-{
+.bekezdes {
+    text-align: justify;
+}
+
+
+.narancs_ragyogas {
+    -webkit-filter: drop-shadow(0px 0px 15px orange);
+    filter: drop-shadow(0px 0px 15px orange);
+}
+
+.zold_ragyogas {
+    -webkit-filter: drop-shadow(0px 0px 15px green);
+    filter: drop-shadow(0px 0px 15px green);
+}
+
+
+.kozepre {
     text-align: center;
 }
-
